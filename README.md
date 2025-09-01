@@ -1,7 +1,24 @@
 # AlbumDashboard
 A Music Album Dashboard tracker to help with charting progress on a musical project.
 
-This is an Album Dashboard, just use _start.bat to launch it. http://localhost:5173/# to access it. It has 20 songs on a 5x4 grid, this can be customized with some code tweaks. It is meant to be full screen with no scroll bar on a 1920x1080 screen.
+## Getting Started
+
+1. Clone the repository:
+git clone https://github.com/davidboily/AlbumDashboard.git
+cd AlbumDashboard
+
+2. Install dependencies:
+npm ci
+
+3. Start the development server:
+npm run dev
+
+or run `_start.bat` on Windows.
+
+4. Open the app:
+Go to [http://localhost:5173](http://localhost:5173) in your browser.  
+
+It has 20 songs on a 5x4 grid, this can be customized with some code tweaks. The dashboard is designed for a 1920×1080 screen, fullscreen with no scrollbar.
 
 # React + Vite
 
